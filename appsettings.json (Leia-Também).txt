@@ -1,0 +1,23 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Database=devtestdb;Username=postgres;Password=postgres"
+  },
+  "JwtSettings": {
+    "SecretKey": "EstaChaveDeveSerGrandeESegura1234567890",
+    "Issuer": "ro.devtest",
+    "Audience": "ro.devtest"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
+
+
+
+Lembrando que quem for testar deve alterar Username e Password conforme o que tiver instalado no seu PostgreSQL Local.
