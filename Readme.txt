@@ -67,9 +67,7 @@ Proteção de endpoints com autenticação JWT
 🔒 Autenticação
 Registre-se usando /api/auth/register
 
-Faça login usando /api/auth/login para obter o token
-
-Copie o token JWT e adicione no Swagger usando o botão Authorize
+Faça login usando /api/auth/login
 
 📂 Organização do Projeto
 Domain: Entidades e Exceções
@@ -98,7 +96,7 @@ sql
 CREATE DATABASE devtestdb;
 
 📬 Contato
-Projeto desenvolvido por [Seu Nome] para avaliação técnica.
+Projeto desenvolvido por Igor para avaliação técnica.
 
 Email: duigor5@gmail.com
 
